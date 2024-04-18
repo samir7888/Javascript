@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+
+
+    <div class="main">
+
+
+      <div class="firstDiv">
+        <h1 id="newPass"></h1>
+        
+          <i class="fa-regular fa-2x fa-copy" id="copyBtn"></i>
+
+       
+      </div>
+
+
+      <h1>Customize your password</h1>
+      <div class="secondDiv">
+
+
+        <div class="rangeWala">
+          <strong style="font-size: x-large;">
+            Password length:
+          </strong><br><br>
+
+       <span style="display: flex;
+       gap: 3px;">
+        <input type="range" name="range" id="range" min="6" max="20" value="10"  />
+
+        <p id="rangeVal"></p>
+      </span>
+        
+      </div>
+
+      <form>
+        <div class="boxWala">
+          <input type="checkbox" name="capLet" id="capLet" />
+          <label for="capLet">UpperCase</label><br />
+
+          <input type="checkbox" name="samLet" id="samLet" />
+          <label for="samLet">LowerCase</label><br />
+
+          <input type="checkbox" name="number" id="number" />
+          <label for="number">Number</label><br />
+
+          <input type="checkbox" name="symbol" id="symbol" />
+          <label for="symbol">Symbol</label><br />
+        </div>
+
+      </div>
+        <button id="genPass">Generate Password</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

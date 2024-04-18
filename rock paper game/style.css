@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav{
+    height: 100px;
+    width: full;
+    background-color: aqua;
+    color: yellow;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border: hidden;
+    background-color: white;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.result{
+    padding: 4px;
+}
+
+.win{
+background-color: green;
+color: white ;
+}
+
+.lose{
+    background-color: red;
+    color: white;
+}
+
+.tie{
+    background-color: black;
+    color: white;
+}
+
+.icon{
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    border: hidden;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon:hover{
+    
+    cursor: pointer;
+    border: solid 2px black;
+}
+
+.btn{
+    
+    height: fit-content;
+    
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    height: fit-content;
+}
+

@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(73, 239, 239, 0.497);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    height: 350px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.firstDiv {
+    width: max;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 30px;
+}
+
+#newPass {
+    font-size: x-large;
+    border: solid 2px;
+    min-width: 300px;
+    padding: 5px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.secondDiv {
+    display: flex;
+    margin-top: 30px;
+    gap: 150px;
+    min-width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#rangeVal {
+    font-size: x-large;
+    font-weight: 600px;
+}
+
+.boxWala {
+    gap: 20px;
+    font-size: x-large;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+
+
+#genPass {
+    margin-top: 20px;
+    padding: 5px;
+    font-weight: 500;
+    font-size: large;
+    border-radius: 5px;
+}
