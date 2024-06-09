@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.note {
+    width: 350px;
+    height: 350px;
+    background-color: orange;
+    font-size: 2em;
+    outline: none;
+    padding: 10px;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    background-color: bisque;
+}
+
+.main {
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+/*scrollbar hide garcha*/
+
+
+.note::-webkit-scrollbar {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#div {
+
+
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+
+}
+
+.allNote {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.singleNote {
+    background-color: rgb(195, 0, 255);
+    border-radius: 10px;
+
+}
+
+.editBtn {
+    border: none;
+    padding: 10px;
+    font-size: 1.5em;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.removeBtn {
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    font-size: 1.5em;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.date {
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+#txtA {
+    background-color: rgb(67, 209, 209);
+}
